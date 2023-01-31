@@ -85,7 +85,6 @@ button:hover{
   .landing-container{
     display: flex;
     justify-content: space-evenly;
-    height: 80vh;
   }
   
   .banner-container{
