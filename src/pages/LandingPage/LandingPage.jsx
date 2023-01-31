@@ -10,7 +10,7 @@ const LandingPage = (props) => {
           <img className="profile-image animate__zoomIn animate__delay-.5s animate__animated" src="https://via.placeholder.com/250/09f.png/fff " alt="" />
           <h2 className="profile-description animate__zoomIn animate__delay-1s animate__animated">A Full Stack Software Developer</h2>
         </div>
-        <div class='button-container'>
+        <div className='button-container'>
           <Link to='/about-me'>
             <button>
               About Me
