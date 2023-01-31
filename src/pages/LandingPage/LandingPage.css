@@ -48,6 +48,7 @@ button{
   font-family: 'Stick No Bills', sans-serif;
   font-size: 32px;
   font-weight: 200;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 button:hover{
@@ -56,7 +57,7 @@ button:hover{
 
 
 
-@media only screen and (min-width: 800px) {  
+@media only screen and (min-width: 660px) {  
   .landing-container{
     display: flex;
     justify-content: space-around;
