@@ -11,6 +11,7 @@ const LandingPage = (props) => {
           <h2 className="profile-description animate__zoomIn animate__delay-1s animate__animated">A Full Stack Software Developer</h2>
         </div>
         <div className='button-container'>
+          <div className='top-buttons'>
           <Link to='/about-me'>
             <button>
               About Me
@@ -21,6 +22,8 @@ const LandingPage = (props) => {
               Projects
             </button>
           </Link>
+          </div>
+          <div className="bottom-buttons">
           <Link to='/resume'>
             <button>
               Resume
@@ -31,6 +34,7 @@ const LandingPage = (props) => {
               GitHub
             </button>
           </Link>
+          </div>
         
         </div>
       </div>
