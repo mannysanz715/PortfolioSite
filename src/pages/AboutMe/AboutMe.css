@@ -1,0 +1,35 @@
+.profile-image{
+  width: 200px;
+}
+img{
+  width: 35px;
+}
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.about-me-paragraph{
+  min-width: 250px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.tech-used-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 800px) {  
+  .about-container{
+    height: 82vh;
+  }
+  .about-me-paragraph{
+    width: 800px;
+  }
+}
