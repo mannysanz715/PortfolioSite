@@ -34,6 +34,14 @@ const LandingPage = (props) => {
               GitHub
             </button>
           </Link>
+          <button>
+            <a href = "mailto:mannys.leandro@gmail.com?subject = Portfolio OutReach = Message">
+              Email Me
+            </a> 
+          </button>
+
+
+          
           </div>
         
         </div>
