@@ -6,7 +6,9 @@ const AboutMe = (props) => {
       <img className="profile-image animate__zoomIn animate__delay-.5s animate__animated" src="/mannypic.png" alt="" width='300px' />
       <h2>About Me</h2>
         <p className="about-me-paragraph">
-          Hi! My name is Manny and I am a Software Developer. I got into programming when I was in High School, and have stuck with it since then. Building out projects and getting to work with the people around me on projects is why I became a developer in the first place. I also really love music, and picking up new skill come to me easily. I taught myself the guitar when I was 6, played violin in Middle School, and just recently picked up the piano and saxophone. I wonder what cool thing I will pick up next!?!? 
+          Good day! I am Manny, a Software Developer with a passion for coding. I  discovered my interest in programming during my high school years and have continued to cultivate my skills since then. I find great satisfaction in working on projects and collaborating with others in the field.
+          <br/>
+          Aside from my profession, I also have a love for music and have honed several musical talents over the years. I taught myself the guitar at the age of six, played the violin in middle school, and recently added piano and saxophone to my repertoire. I am constantly seeking new challenges and look forward to what new skill I will acquire next.
         </p>
         <br/>
         <br/>
