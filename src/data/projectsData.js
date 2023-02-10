@@ -1,4 +1,18 @@
 export const projects = [
+  {
+    title : 'Exchange-O-Gram',
+    desc : "Exchange-O-Gram is a social media photo-sharing application. After signing up, a user can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page and like and comment on each post. If a user wants to message another user directly, they can send and respond to messages from their profile page. Exchange-O-Gram makes it easy to keep up with your friends and family's lives through photo sharing!",
+    link : 'https://exchangeagram.netlify.app/',
+    gitLink : 'https://github.com/mannysanz715/exchangeagram-front-end/tree/main',
+    techUsed : ['Node.js',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'React',
+      'CSS',
+      ],
+    img: '/screenshot.PNG'
+  },
 {
   title : 'ConnectFOR',
   desc : 'ConnectFOR is a Two Player game that requires an imense amount of skill. The cirlces in the board are click-able, dropping a ConnectFOR piece into the lowest open slot on the board. Each player is assigned a color. Player 1 is red : Player 2 yellow. The objective is to take turns with your opponent, dropping pieces into slots. The first person to connect 4 of them in a row is the winner. BE WARNED. THIS GAME WILL RUIN FRIENDSHIPS!',
