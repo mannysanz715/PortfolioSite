@@ -1,0 +1,19 @@
+.banner-container{
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  margin-top: 100px;
+  align-items: center;
+  font-size: 40px;
+  justify-content: space-evenly;
+  width: 100vw;
+  background-image: linear-gradient(to right,rgb(0, 208, 255), rgb(3, 95, 255));
+  color: white;
+  -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+.profile-image{
+  border-radius: 50%;
+  width: 300px;
+}

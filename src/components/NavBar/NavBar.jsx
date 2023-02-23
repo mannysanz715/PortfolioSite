@@ -1,10 +1,20 @@
 import './NavBar.css'
-import { Link } from 'react-router-dom'
+
 const NavBar = () => {
   return (
-    <div className="nav-bar centered">
-      <h1 className="nav-title centered"><Link to='/'>Manuel Sanchez</Link></h1>
-      {/* <h1 className="nav-title centered">-</h1> */}
+    <div className="nav-bar">
+      <div className='name-title'>
+        <h1 className="nav-title centered"><a href="#root">Manuel Sanchez</a></h1>
+      </div>
+      <div className='nav-links'>
+        <ul className='link-ul'>
+          <li className='nav-link'>About Me</li>
+          <li className='nav-link'>Technologies</li>
+          <li className='nav-link'>Projects</li>
+          <li className='nav-link'>Contact Me</li>
+        </ul>
+      </div>
+      
     </div>
 )
 }
