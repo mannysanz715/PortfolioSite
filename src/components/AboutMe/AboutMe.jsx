@@ -4,7 +4,7 @@ const AboutMe = () => {
     <>
       <h2 className='about-me-title'>About Me</h2>
       <div className="about-container">
-        {/* <img className="profile-image animate__zoomIn animate__delay-.5s animate__animated " src="/mannypic.png" alt="" width='300px' /> */}
+        <img className="profile-image animate__zoomIn animate__delay-.5s animate__animated " src="/mannypic.png" alt="" width='300px' />
         <div className='about-me-text'>
 
         <p className="about-me-paragraph">

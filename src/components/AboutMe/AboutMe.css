@@ -12,12 +12,14 @@
   align-items: center;
   margin: 20px;
   margin-top: 0;
-  width: 100vw;
+  max-width: 2000px;
   justify-content: space-evenly;
+  height: 60vh;
+  gap: 200px;
 }
 
 .about-me-paragraph{
-  min-width: 250px;
+  width: 800px;
   text-align: center;
   font-size: 30px;
 }
@@ -29,11 +31,16 @@
 }
 
 
-@media only screen and (min-width: 800px) {  
+@media only screen and (max-width: 1200px) {  
   .about-container{
-    height: 60vh;
+    height: fit-content;
+    gap: 0;
+    flex-direction: column;
+  }
+  .profile-image{
+    width: 200px;
   }
   .about-me-paragraph{
-    width: 800px;
+    width: auto;
   }
 }

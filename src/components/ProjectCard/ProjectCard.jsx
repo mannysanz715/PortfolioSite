@@ -5,8 +5,10 @@ const ProjectCard = ({project}) => {
     <>
       <div className='card-container'>
         <img className="project-img" src={project.img} alt="Project Image" />
-        <h3>{project.title}</h3>
-        <p>{project.desc}</p>
+        <div className='card-desc'>
+          <h3>{project.title}</h3>
+          <p>{project.desc}</p>
+        </div>
         <ul className='tech-container'>
         {project.techUsed.map( tech =>
           <li key={tech} >{tech}</li>
