@@ -40,18 +40,35 @@ li{
   width: 100px;
   height: 60px;
   font-size: 20px;
-
 }
 
-@media only screen and (max-width: 1000px) {  
+.card-desc{
+  margin: 15px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 350px;
+  gap: 0;
+}
+
+.card-desc > h3{
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {  
   .card-container{
     width: 90vw;
     font-size: 29px;
-    padding: 10px;
   }
   .project-img{
     width: 90vw;
     height: 225px;
     border-radius: 6px 6px 0 0;
+  }
+  .card-desc{
+    font-size: 20px;
+    min-height: 400px;
+    /* max-height: 400px; */
   }
 }
