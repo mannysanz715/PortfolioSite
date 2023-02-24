@@ -7,9 +7,9 @@ const LandingPage = (props) => {
   return (
     <div className='page-container'>
       <HeroBanner />
+      <Projects />
       <Technologies />
       <AboutMe />
-      <Projects />
     </div>//page container
 )
 }

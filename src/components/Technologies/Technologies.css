@@ -15,6 +15,8 @@
   flex-wrap: wrap;
   width: 1000px;
   gap:50px 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 .tech-img{
@@ -28,3 +30,15 @@
   font-size: 23px;
 }
 
+@media only screen and (max-width: 1000px) {  
+  .tech-used-images{
+    width:auto;
+    margin: 0 10px;
+    gap: 40px;
+  }
+  .footer{
+    display: flex;
+    justify-content: end;
+  }
+
+}
