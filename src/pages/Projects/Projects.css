@@ -1,9 +1,0 @@
-.projects-container{
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-h1{
-  text-align: center;
-}

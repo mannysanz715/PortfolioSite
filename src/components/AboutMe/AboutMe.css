@@ -1,37 +1,37 @@
 .profile-image{
   width: 200px;
 }
-img{
-  width: 35px;
-}
 
-.about-container > h2{
-  font-size: 32px;
+.about-me-title{
+  font-size: 60px;
+  margin-top: 60px;
 }
 
 .about-container{
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 20px;
+  margin-top: 0;
+  width: 100vw;
+  justify-content: space-evenly;
 }
 
 .about-me-paragraph{
   min-width: 250px;
   text-align: center;
-  font-size: 22px;
+  font-size: 30px;
 }
 
-.tech-used-container{
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
+.profile-image{
+  width: 400px;
+  border-radius: 50%;
+  border: 3px solid rgb(3, 125, 255);
 }
+
 
 @media only screen and (min-width: 800px) {  
   .about-container{
-    height: 100vh;
+    height: 60vh;
   }
   .about-me-paragraph{
     width: 800px;
