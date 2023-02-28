@@ -12,7 +12,6 @@
   color: white;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-  box-shadow: 0 4px 2px 0px gray;
 }
 .banner-info{
   background-image: url('../../../public/background.png');
