@@ -29,14 +29,14 @@ export const projects = [
   techUsed : ['Express','JavaScript','MongoDB','Mongoose','Node','EJS','CSS','Fly.io'], 
   img : '/healthTracker.png'
 },
-{
-  title : 'Portfolio Site',
-  desc : 'This is the code to the site you are on now!',
-  link : 'https://mannys-portfolio.netlify.app/',
-  gitLink : 'https://github.com/mannysanz715/PortfolioSite',
-  techUsed : ['ReactJS','JavaScript','CSS'],
-  img: '/portfolio.png'
-},
+// {
+//   title : 'Portfolio Site',
+//   desc : 'This is the code to the site you are on now!',
+//   link : 'https://mannys-portfolio.netlify.app/',
+//   gitLink : 'https://github.com/mannysanz715/PortfolioSite',
+//   techUsed : ['ReactJS','JavaScript','CSS'],
+//   img: '/portfolio.png'
+// },
 // {
 //   title : '',
 //   desc : '',
