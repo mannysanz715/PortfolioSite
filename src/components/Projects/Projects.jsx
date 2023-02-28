@@ -7,7 +7,7 @@ const Projects = () => {
       <h2 className="projects-name">Projects</h2>
       <div className="projects-container">
       {projects.map( (project, idx) =>
-        <ProjectCard key={idx} project={project}/>
+        <ProjectCard key={idx} index={idx} project={project}/>
         )}
         </div>
     </div>

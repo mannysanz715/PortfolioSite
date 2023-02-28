@@ -1,23 +1,29 @@
 import './ProjectCard.css'
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({project, index}) => {
+  console.log(index)
   return (
     <>
-      <div className='card-container'>
-        <img className="project-img" src={project.img} alt="Project Image" />
-        <div className='card-desc'>
+      <div className={(index % 2 !== 0 ? 'card-container even' : 'card-container')} >
+      <div className={(index % 2 !== 0 ? 'card even' : 'card')}>
+
+        <div className='title-image'>
           <h3>{project.title}</h3>
-          <p>{project.desc}</p>
+          <img className="project-img" src={project.img} alt="Project pic" />
         </div>
+        <div className='card-desc'>
+          <p>{project.desc}</p>
         <ul className='tech-container'>
         {project.techUsed.map( tech =>
           <li key={tech} >{tech}</li>
-        )}
+          )}
         </ul>
         <div className='card-buttons'>
-        <a href={project.link} target="_blank"><button className="projects-buttons">Live Demo</button></a>
-        <a href={project.gitLink} target="_blank"><button className="projects-buttons">GitHub</button></a>
+        <a href={project.link} target="_blank" rel="noreferrer"><button className="projects-buttons">Live Demo</button></a>
+        <a href={project.gitLink} target="_blank" rel="noreferrer"><button className="projects-buttons">GitHub</button></a>
         </div>
+        </div>
+      </div>
 
       </div>
     </>

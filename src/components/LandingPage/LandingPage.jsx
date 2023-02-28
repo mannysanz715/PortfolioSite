@@ -9,7 +9,7 @@ const LandingPage = (props) => {
       <HeroBanner />
       <Projects />
       <Technologies />
-      <AboutMe />
+      <AboutMe /> 
     </div>//page container
 )
 }
