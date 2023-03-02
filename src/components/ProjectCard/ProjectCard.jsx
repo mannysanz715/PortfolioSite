@@ -13,6 +13,7 @@ const ProjectCard = ({project, index}) => {
         </div>
         <div className='card-desc'>
           <p>{project.desc}</p>
+          <h3>Technologies:</h3>
         <ul className='tech-container'>
         {project.techUsed.map( tech =>
           <li key={tech} >{tech}</li>
