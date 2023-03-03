@@ -37,7 +37,7 @@
   background-color: rgb(31, 31, 31);
   flex-direction: row-reverse;
   color: white;
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 .projects-buttons{
@@ -75,9 +75,24 @@
     gap: 10px;
     overflow-x: hidden;
   }
+  
+  .card-container{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tech-container{
+    margin-right: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
   .card-desc{
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+    width: 90vw;
   }
 }
