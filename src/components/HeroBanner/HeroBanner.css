@@ -7,9 +7,9 @@
   max-height: 43vh;
   font-size: 50px;
   background-image: linear-gradient(to right,rgb(0, 208, 255), rgb(3, 95, 255));
-  color: black;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: lightgray;
+  color: white;
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: black;
 }
 .banner-info{
   background-image: url('../../../public/background.png');
