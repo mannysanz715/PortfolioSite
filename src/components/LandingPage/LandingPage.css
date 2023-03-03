@@ -5,10 +5,6 @@
 }
 
 
-button:hover{
-  background-color: #48BF84;
-}
-
 a{
   text-decoration: none;
   color: white;
@@ -69,9 +65,6 @@ a{
     gap: 50px;
     align-items: center;
   }
-  button{
-    height: 100px;
-    width: 200px
-  }
+  
   
 }

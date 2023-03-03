@@ -8,11 +8,12 @@
 }
 
 .about-container{
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   margin: 20px;
   margin-top: 0;
-  max-width: 2000px;
+  max-width: 1800px;
   justify-content: space-evenly;
   height: 60vh;
   gap: 200px;
@@ -31,7 +32,7 @@
 }
 
 
-@media only screen and (max-width: 1200px) {  
+@media only screen and (max-width: 1500px) {  
   .about-container{
     height: fit-content;
     gap: 0;

@@ -6,6 +6,7 @@
 
 .card-container{
   width: 100vw;
+  overflow-x: hidden;
 }
 .card{
   display: flex;
@@ -39,6 +40,44 @@
   margin: 15px;
 }
 
-.card-buttons{
+.projects-buttons{
+  display: flex;
   border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 191, 255);
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+}
+.card-buttons{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.projects-buttons:hover{
+  background-color: rgb(36, 125, 154);
+}
+
+
+@media only screen and (max-width: 1200px) { 
+  .card{
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    overflow-x: hidden;
+  }
+  .card-desc{
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
 }
