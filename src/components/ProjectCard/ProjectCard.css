@@ -13,9 +13,9 @@
   justify-content: center;
   margin: 0 auto;
   gap: 200px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card-desc{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: flex;
   flex-direction: column;
   width: 500px;
