@@ -1,5 +1,13 @@
 export const projects = [
   {
+      title : 'What to Watch?',
+      desc : 'Ever get stuck on what you want to watch at night? Do you ever waste the night searching for the right movie, just to end up not watching anything because you spent too much time on deciding? Welcome to "What to Watch?", where you can get a movie reccomendation thrown at you based on the genre you are in the mood for!',
+      link : 'https://movie-rec-app.netlify.app/',
+      gitLink : 'https://github.com/mannysanz715/movie-rec-front',
+      techUsed : ['Node.js','ReactJS','CSS','Netlify','Express.js','RestAPI',], 
+      img : '/movieRec.png'
+    },
+  {
     title : 'Exchange-O-Gram',
     desc : "Exchange-O-Gram is a social media photo-sharing application. After signing up, a user can upload photos and display them on the feed page and their profile page. The user can also view other users photos on the feed page and like and comment on each post. If a user wants to message another user directly, they can send and respond to messages from their profile page. Exchange-O-Gram makes it easy to keep up with your friends and family's lives through photo sharing!",
     link : 'https://exchangeagram.netlify.app/',
@@ -29,14 +37,6 @@ export const projects = [
   techUsed : ['Express','JavaScript','MongoDB','Mongoose','Node','EJS','CSS','Fly.io'], 
   img : '/healthTracker.png'
 },
-// {
-//   title : 'Portfolio Site',
-//   desc : 'This is the code to the site you are on now!',
-//   link : 'https://mannys-portfolio.netlify.app/',
-//   gitLink : 'https://github.com/mannysanz715/PortfolioSite',
-//   techUsed : ['ReactJS','JavaScript','CSS'],
-//   img: '/portfolio.png'
-// },
 // {
 //   title : '',
 //   desc : '',
