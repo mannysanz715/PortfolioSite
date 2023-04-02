@@ -1,7 +1,6 @@
 import './ProjectCard.css'
 
 const ProjectCard = ({project, index}) => {
-  console.log(index)
   return (
     <>
       <div className={(index % 2 !== 0 ? 'card-container even' : 'card-container')} >

@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: space-around;
   width: 100vw;
-  max-height: 43vh;
-  font-size: 50px;
+  height: 100vh;
+  font-size: 80px;
   background-image: linear-gradient(to right,rgb(0, 208, 255), rgb(3, 95, 255));
   color: white;
   -webkit-text-stroke-width: 1.2px;
@@ -22,7 +22,7 @@
   justify-content: space-around;
   width: 100vw;
   max-height:fit-content ;
-  gap: 50px;
+  gap: 100px;
 }
 
 /* 
