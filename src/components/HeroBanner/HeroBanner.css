@@ -32,10 +32,12 @@
 @media only screen and (max-width: 1000px) { 
   .banner-info{
     font-size: 45px;
+    background-size:100%;
   }
 }
 @media only screen and (max-width: 600px) { 
   .banner-info{
     font-size: 30px;
+    background-size:170%;
   }
 }
