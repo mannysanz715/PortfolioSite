@@ -22,7 +22,8 @@
 
 .contact-list{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 30px;
   font-size: 32px;
   list-style: none;
@@ -38,8 +39,16 @@
   color: black;
   padding: 35px 35px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .list-item:hover{
   background-color: lightgray;
+}
+
+.list-item > img{
+  width: 50px;
+  margin-left: 15px;
 }
